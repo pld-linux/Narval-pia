@@ -1,34 +1,32 @@
 %define short_name pia
 
 Summary:	Personal information assistant
+Summary(pl):	Asystent informacji osobistych
 Name:		Narval-%{short_name}
 Version:	20011016	
 Release:	1
-Source0:	ftp://ftp.logilab.org/pub/narval/applications/%{short_name}-%{version}.npm
 License:	GPL
 Group:		Applications
 Group(de):	Applikationen
 Group(pl):	Aplikacje
+Source0:	ftp://ftp.logilab.org/pub/narval/applications/%{short_name}-%{version}.npm
+URL:		http://www.logilab.org/narval/app.html
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Requires:	Narval
-Url:		http://www.logilab.org/narval/app.html
 
 %description
-Pia is an extension set for Narval
+Pia is an extension set for Narval.
 
 It let one set up a personal information assistant that manages
 appointments and meetings, contact information, etc.
 
-
 %description -l pl
-Pia to zestaw rozszerzeñ dla Narval'a
+Pia to zestaw rozszerzeñ dla Narval-a.
 
 Pozwala na skonfigurowanie osobistego asystenta, który zarz±dza
 spotkaniami, informacjami kontaktowymi itp.
 
 %prep
-
-%build
 
 %install
 rm -rf $RPM_BUILD_ROOT
