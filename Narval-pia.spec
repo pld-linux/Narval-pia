@@ -8,6 +8,7 @@ Release:	1
 License:	GPL
 Group:		Applications
 Source0:	ftp://ftp.logilab.org/pub/narval/applications/%{short_name}-%{version}.npm
+# Source0-md5:	2e1a3f673a82637c1d6acfeadea13d9c
 URL:		http://www.logilab.org/narval/app.html
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Requires:	Narval
