@@ -3,7 +3,7 @@
 Summary:	Personal information assistant
 Summary(pl):	Asystent informacji osobistych
 Name:		Narval-%{short_name}
-Version:	20011016	
+Version:	20011016
 Release:	1
 License:	GPL
 Group:		Applications
