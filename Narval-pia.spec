@@ -20,7 +20,7 @@ It let one set up a personal information assistant that manages
 appointments and meetings, contact information, etc.
 
 %description -l pl
-Pia to zestaw rozszerzeñ dla Narval-a.
+Pia to zestaw rozszerzeñ dla Narvala.
 
 Pozwala na skonfigurowanie osobistego asystenta, który zarz±dza
 spotkaniami, informacjami kontaktowymi itp.
@@ -29,7 +29,7 @@ spotkaniami, informacjami kontaktowymi itp.
 
 %install
 rm -rf $RPM_BUILD_ROOT
-install -D %{SOURCE0} $RPM_BUILD_ROOT%{_datadir}/narval/apps
+install -D %{SOURCE0} $RPM_BUILD_ROOT%{_datadir}/narval/apps/%{short_name}-%{version}.npm
 
 %clean
 rm -rf $RPM_BUILD_ROOT
