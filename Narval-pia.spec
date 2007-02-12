@@ -1,7 +1,7 @@
 %define short_name pia
 
 Summary:	Personal information assistant
-Summary(pl.UTF-8):   Asystent informacji osobistych
+Summary(pl.UTF-8):	Asystent informacji osobistych
 Name:		Narval-%{short_name}
 Version:	20011016
 Release:	1
