@@ -1,7 +1,7 @@
 %define short_name pia
 
 Summary:	Personal information assistant
-Summary(pl):	Asystent informacji osobistych
+Summary(pl.UTF-8):   Asystent informacji osobistych
 Name:		Narval-%{short_name}
 Version:	20011016
 Release:	1
@@ -19,10 +19,10 @@ Pia is an extension set for Narval.
 It let one set up a personal information assistant that manages
 appointments and meetings, contact information, etc.
 
-%description -l pl
-Pia to zestaw rozszerzeñ dla Narvala.
+%description -l pl.UTF-8
+Pia to zestaw rozszerzeÅ„ dla Narvala.
 
-Pozwala na skonfigurowanie osobistego asystenta, który zarz±dza
+Pozwala na skonfigurowanie osobistego asystenta, ktÃ³ry zarzÄ…dza
 spotkaniami, informacjami kontaktowymi itp.
 
 %prep
